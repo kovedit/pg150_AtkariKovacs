@@ -1,10 +1,14 @@
 *{
-  margin: auto;
-  font-family: serif;
+   margin: auto;
+   font-family: serif;
+    
 }
 
+
 body{
-  background-image: url(old-script-writing-on-seamless-old-paper-texture-1072.jpg);
+  background-image: url(texture.jpg);
+  margin: auto;
+  width: 70%;
 }
 
 .topnav {
