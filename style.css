@@ -1,11 +1,12 @@
 *{
     margin: auto;
     font-family: serif;
-    background-image: url(old-script-writing-on-seamless-old-paper-texture-1072.jpg);
+    background-image: url(texture.jpg);
 }
 
 body{
-
+  margin: auto;
+  width: 70%;
 }
 
 .topnav {
