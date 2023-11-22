@@ -1,6 +1,7 @@
 *{
-    margin: auto;
-    font-family: serif;
+  margin: auto;
+  font-family: serif;
+  
 }
 
 body{
@@ -39,8 +40,7 @@ body{
 }
 
 .topnav a.split:hover {
-  background-color: #ddd;
-  color: black;
+  color: #B28D34;
 }
 
 @media screen and (max-width: 1005px) {
