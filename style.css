@@ -1,13 +1,17 @@
 *{
   margin: auto;
   font-family: serif;
-  
 }
 
 body{
   background-image: url(texture.jpg);
   margin: auto;
+  background-attachment: fixed;
+
+  
 }
+
+/*menu*/
 
 .topnav {
   overflow: hidden;
@@ -25,7 +29,7 @@ body{
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #cfcfc5;
   color: black;
 }
 
@@ -66,3 +70,39 @@ body{
 }
 
 
+/*Főoldal - tartalom*/
+
+.content{
+  background-color: #cfcfc5;
+  box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+#logo{
+  flex-basis: 70%
+}
+
+
+
+#felirat{
+  font-size: 140px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+#bevezeto{
+  text-align: justify;
+  margin: 20px;
+  padding: 20px;
+}
