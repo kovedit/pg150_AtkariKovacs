@@ -122,6 +122,63 @@ body{
   padding: 20px;
 }
 
+
+
+/* Tanítóképző */
+
+.almenu{
+  background-color: #fcf5a8;
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+
+.almenu a{
+  text-decoration: none;
+  color: black;
+  display:inline-block;
+  float: none;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+
+
+
+.almenu ul { 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+.almenu ul li { 
+  display: table-cell; 
+  position: relative; 
+}
+.almenu ul li a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 0px 0px 0px;
+  position: relative;
+}
+.almenu ul li a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  background: #333;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.almenu ul li a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
 @media screen and (max-width: 1315px) {
   #logo { 
    float: none;
