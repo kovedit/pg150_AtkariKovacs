@@ -186,3 +186,9 @@ body{
    width: auto;
  }
 }
+
+/*lábléc beállításai*/
+
+#lablec li{
+  display: inline;
+}
