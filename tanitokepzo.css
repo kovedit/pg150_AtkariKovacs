@@ -136,7 +136,7 @@
   
   .almenu a{
     text-decoration: none;
-    color: black;
+    color: #311d1f;
     display:inline-block;
     float: none;
     text-align: center;
@@ -160,7 +160,7 @@
   
   }
   .almenu ul li a {
-    color: black;
+    color: #311d1f;
     text-decoration: none;
     display: inline-block;
     padding: 10px 10px 0px 10px;
@@ -173,7 +173,7 @@
     display: block;
     height: 1px;
     position: absolute;
-    background: #333;
+    background: #311d1f;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
