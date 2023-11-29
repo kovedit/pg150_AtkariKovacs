@@ -229,16 +229,6 @@ footer {
   left: 0; 
 }
 
-
-
-@media screen and (max-width: 1315px) {
-  #logo { 
-   float: none;
-   margin-right: 0;
-   width: auto;
- }
-}
-
 h1{
   text-align: center;
   padding-bottom: 25px;
