@@ -7,8 +7,6 @@ body{
   background-image: url(texture.jpg);
   margin: auto;
   background-attachment: fixed;
-
-  
 }
 
 /*menu*/
@@ -69,11 +67,6 @@ body{
   }
 }
 
-
-
-
-
-
 /*Főoldal - tartalom*/
 
 .content{
@@ -122,7 +115,61 @@ body{
   padding: 30px;
 }
 
+@media screen and (max-width: 1315px) {
+  #logo { 
+   float: none;
+   margin-right: 0;
+   width: auto;
+ }
+}
 
+/*lábléc beállításai*/
+
+footer {
+  background: rgba(214, 214, 191, 0.85);
+  position: absolute;
+  width: 100%;
+}
+
+#footerdiv {
+  display: flex;
+  align-items: center;
+}
+
+#uldiv{
+  float: left;
+}
+
+#pdiv {
+  float: left;
+}
+
+#lablec {
+
+  list-style-type: none;
+}
+
+#lablec a {
+  text-decoration: none; 
+  color: #333; 
+}
+
+#pdiv p a {
+  text-decoration: none; 
+
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-instagram {
+  color: purple;
+}
 
 /* Tanítóképző */
 
@@ -141,7 +188,7 @@ body{
   float: none;
   text-align: center;
   font-size: 18px;
- 
+
 }
 
 .almenu ul { 
@@ -182,6 +229,8 @@ body{
   left: 0; 
 }
 
+
+
 @media screen and (max-width: 1315px) {
   #logo { 
    float: none;
@@ -200,8 +249,3 @@ h1{
   width: 80%;
 }
 
-/*lábléc beállításai*/
-
-#lablec li{
-  display: inline;
-}
