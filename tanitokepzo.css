@@ -1,0 +1,205 @@
+*{
+
+    font-family: serif;
+  }
+  
+  body{
+    background-image: url(texture.jpg);
+    margin: auto;
+    background-attachment: fixed;
+  
+    
+  }
+  
+  /*menu*/
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #cfcfc5;
+    color: black;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .topnav a.split {
+    float: right;
+    background-color: #333;
+    color: white;
+  }
+  
+  .topnav a.split:hover {
+    color: #B28D34;
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  /*Főoldal - tartalom*/
+  
+  .content{
+    background-color: #cfcfc5;
+    box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .wrapper {
+    background-color: #cfcfc5;
+    box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    overflow: hidden;  
+  }
+  
+  .wrapper div {
+    min-height: 200px;
+    padding: 10px;
+  }
+  
+  #logo{
+    float: left;
+    text-align: center;
+  }
+  
+  #felirat{
+    font-size: 120px;
+    padding-left: 20px;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    min-height:170px;  
+  }
+  
+  .szoveg{
+    text-align: justify;
+    margin: 10px;
+    padding: 30px;
+  }
+  
+  
+  
+  /* Tanítóképző */
+  
+  .almenu{
+    background-color: #fcf5a8;
+    width: 100%;
+    display: table;
+    text-align: center;
+    
+  }
+  
+  .almenu a{
+    text-decoration: none;
+    color: black;
+    display:inline-block;
+    float: none;
+    text-align: center;
+    font-size: 18px;
+   
+  }
+  
+  .almenu ul { 
+    list-style: none; 
+    display: table;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .almenu ul li { 
+    display: table-cell; 
+    position: relative;
+    
+  
+  }
+  .almenu ul li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px 0px 10px;
+    position: relative;
+  }
+  .almenu ul li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    background: #333;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .almenu ul li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+  @media screen and (max-width: 1315px) {
+    #logo { 
+     float: none;
+     margin-right: 0;
+     width: auto;
+   }
+  }
+  
+  h1{
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+
+  
+  /*lábléc beállításai*/
+  
+  #lablec li{
+    display: inline;
+  }
+  
