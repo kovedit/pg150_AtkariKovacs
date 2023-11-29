@@ -70,6 +70,10 @@ body{
 }
 
 
+
+
+
+
 /*Főoldal - tartalom*/
 
 .content{
@@ -83,7 +87,7 @@ body{
 }
 
 #logo{
-  flex-basis: 70%
+  max-width: 60%;
 }
 
 
