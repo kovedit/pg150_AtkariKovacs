@@ -47,7 +47,7 @@ body{
   color: #B28D34;
 }
 
-@media screen and (max-width: 1005px) {
+@media screen and (max-width: 1020px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -55,7 +55,7 @@ body{
   }
 }
 
-@media screen and (max-width: 1005px) {
+@media screen and (max-width: 1020px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -82,27 +82,46 @@ body{
   padding: 10px;
 }
 
-#logo{
-  flex-basis: 70%
+.wrapper {
+  background-color: #cfcfc5;
+  box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 39px -3px rgba(0,0,0,0.75);
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  overflow: hidden;  
 }
 
+.wrapper div {
+  min-height: 200px;
+  padding: 10px;
+}
 
+#logo{
+  float: left;
+  text-align: center;
+}
 
 #felirat{
-  font-size: 140px;
+  font-size: 120px;
   padding-left: 20px;
   font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  min-height:170px;  
 }
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
 
 #bevezeto{
   text-align: justify;
   margin: 20px;
   padding: 20px;
+}
+
+@media screen and (max-width: 1315px) {
+  #logo { 
+   float: none;
+   margin-right: 0;
+   width: auto;
+ }
 }
