@@ -1,5 +1,5 @@
 *{
-  margin: auto;
+
   font-family: serif;
 }
 
@@ -116,10 +116,10 @@ body{
   min-height:170px;  
 }
 
-#bevezeto{
+.szoveg{
   text-align: justify;
   margin: 20px;
-  padding: 20px;
+  padding: 30px;
 }
 
 
@@ -131,6 +131,7 @@ body{
   width: 100%;
   display: table;
   text-align: center;
+  
 }
 
 .almenu a{
@@ -140,27 +141,29 @@ body{
   float: none;
   text-align: center;
   font-size: 18px;
-
+ 
 }
-
-
-
 
 .almenu ul { 
   list-style: none; 
   display: table;
-  width: 600px;
+  width: 40%;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .almenu ul li { 
   display: table-cell; 
-  position: relative; 
+  position: relative;
+  
+
 }
 .almenu ul li a {
   color: black;
   text-decoration: none;
   display: inline-block;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 10px 0px 10px;
   position: relative;
 }
 .almenu ul li a:after {    
@@ -185,6 +188,16 @@ body{
    margin-right: 0;
    width: auto;
  }
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.kep{
+  text-align: center;
+  width: 80%;
 }
 
 /*lábléc beállításai*/
