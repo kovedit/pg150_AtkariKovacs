@@ -234,8 +234,19 @@ h1{
   padding-bottom: 25px;
 }
 
-.kep{
-  text-align: center;
-  width: 80%;
+
+
+.emlekeink{
+  display: flex;
+  width: 100%;
 }
+
+
+.kepek{
+  width: 45%;
+  float: left;
+  margin: 10px;
+  position: relative;
+}
+
 
