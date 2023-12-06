@@ -138,25 +138,43 @@ footer {
 }
 
 #uldiv{
+  
   float: left;
-  margin-left: 50px;
+  padding-left: 80px;
+  margin-left: 50px
 }
 
 #pdiv {
   float: right;
   margin-right: 50px;
   margin-top: 40px;
+  padding-right: 15%;
+}
+
+#pdiv i{
+  padding: 10px;
+}
+
+#pdiv a{
+  padding: 10px 2px;
+  padding-bottom: 50px;
 }
 
 #lablec {
   list-style-type: none;
+  padding: 20px 0px;
 }
 
 #lablec a {
   text-decoration: none; 
   color: beige; 
-  /*valami padding ide*/
+
 }
+
+#lablec a li{
+  padding: 5px;
+}
+
 
 #pdiv p a {
   text-decoration: none; 
