@@ -19,7 +19,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: beige;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,7 +38,7 @@ body{
 .topnav a.split {
   float: right;
   background-color: #333;
-  color: white;
+  color: beige;
 }
 
 .topnav a.split:hover {
@@ -126,41 +126,49 @@ body{
 /*lábléc beállításai*/
 
 footer {
-  background: rgba(214, 214, 191, 0.85);
+  background: #333;
   position: absolute;
   width: 100%;
 }
 
 #footerdiv {
-  display: flex;
+  display: flexbox;
   align-items: center;
+  color: beige;
 }
 
 #uldiv{
   float: left;
+  margin-left: 50px;
 }
 
 #pdiv {
-  float: left;
+  float: right;
+  margin-right: 50px;
+  margin-top: 40px;
 }
 
 #lablec {
-
   list-style-type: none;
 }
 
 #lablec a {
   text-decoration: none; 
-  color: #333; 
+  color: beige; 
+  /*valami padding ide*/
 }
 
 #pdiv p a {
   text-decoration: none; 
+}
 
+#uldiv a:hover,
+#pdiv a:hover {
+  color: #B28D34;
 }
 
 .fa-facebook {
-  color: blue;
+  color: rgb(85, 145, 235);
 }
 
 .fa-youtube {
@@ -168,7 +176,7 @@ footer {
 }
 
 .fa-instagram {
-  color: purple;
+  color: rgb(163, 72, 163);
 }
 
 /* Tanítóképző */
