@@ -208,12 +208,12 @@ footer {
   margin-right: auto;
 
 }
+
 .almenu ul li { 
   display: table-cell; 
   position: relative;
-  
-
 }
+
 .almenu ul li a {
   color: black;
   text-decoration: none;
@@ -221,6 +221,7 @@ footer {
   padding: 10px 10px 0px 10px;
   position: relative;
 }
+
 .almenu ul li a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -232,6 +233,7 @@ footer {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
 .almenu ul li a:hover:after { 
   width: 100%; 
   left: 0; 
@@ -251,8 +253,8 @@ h1{
 .emlekeink{
   margin: 5px;
   border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+
+
 }
 
 .emlekeink:hover{
@@ -265,3 +267,83 @@ h1{
 }
 
 
+/*galéria*/
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
