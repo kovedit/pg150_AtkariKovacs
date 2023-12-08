@@ -161,16 +161,13 @@ footer {
   margin-right: 50px;
   margin-top: 40px;
   padding-right: 15%;
+  margin-bottom: 60px;
 }
 
 #pdiv i{
   padding: 10px;
 }
 
-#pdiv a{
-  padding: 10px 2px;
-  padding-bottom: 50px;
-}
 
 #lablec {
   list-style-type: none;
@@ -188,14 +185,16 @@ footer {
 }
 
 
-#pdiv p a{
+#pdiv a{
   text-decoration: none; 
   padding:  10px;
+  margin: 5px;
+
 }
 
 #pdiv a:hover{
   background: -webkit-linear-gradient(#c1a35c, #9fa3b5);
-  border-radius: 60%;
+  border-radius: 80%;
   border: transparent;
   text-decoration: none;
   color: black;
