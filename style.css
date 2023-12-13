@@ -3,6 +3,8 @@
   font-family: serif;
 }
 
+
+
 body{
   background-image: url(texture.jpg);
   margin: auto;
@@ -369,4 +371,17 @@ h1{
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-flow:  row wrap;
+}
+
+.flexbox{
+  overflow: hidden;
+  height: 200px;
 }
